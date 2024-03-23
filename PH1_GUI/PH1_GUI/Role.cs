@@ -91,10 +91,13 @@ namespace PH1_GUI
             AssignRole assignRole = new AssignRole();
             assignRole.Show();
         }
-
+        //Update Role
         private void button3_Click(object sender, EventArgs e)
         {
-
+            if (listView.SelectedItems.Count == 0)
+                return;
+            UpdateUserRole userRole = new UpdateUserRole(listView.SelectedItems[0].Text);
+            userRole.Show();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
