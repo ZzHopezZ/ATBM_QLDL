@@ -79,3 +79,4 @@ C:\Users\hienb\Source\Repos\ATBM_QLDL\PH1_GUI\PH1_GUI\obj\Debug\PH1_GUI.csproj.U
 C:\Users\hienb\Source\Repos\ATBM_QLDL\PH1_GUI\PH1_GUI\obj\Debug\PH1_GUI.exe
 C:\Users\hienb\Source\Repos\ATBM_QLDL\PH1_GUI\PH1_GUI\obj\Debug\PH1_GUI.pdb
 C:\Users\hienb\Source\Repos\ATBM_QLDL\PH1_GUI\PH1_GUI\obj\Debug\PH1_GUI.AssignRole.resources
+C:\Users\hienb\source\repos\ATBM_QLDL\PH1_GUI\PH1_GUI\obj\Debug\PH1_GUI.UpdateUserRole.resources
