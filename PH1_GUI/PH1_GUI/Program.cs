@@ -18,7 +18,7 @@ namespace PH1_GUI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new LoginForm());
-            Application.Run(new Role());
+            Application.Run(new CapQuyen("sys"));
         }
     }
 }
