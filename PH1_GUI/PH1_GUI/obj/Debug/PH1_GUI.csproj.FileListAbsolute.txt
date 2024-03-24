@@ -124,3 +124,4 @@ D:\Demo2\ATBM_QLDL\PH1_GUI\PH1_GUI\obj\Debug\PH1_GUI.exe
 D:\Demo2\ATBM_QLDL\PH1_GUI\PH1_GUI\obj\Debug\PH1_GUI.pdb
 D:\Demo2\ATBM_QLDL\PH1_GUI\PH1_GUI\obj\Debug\PH1_GUI.PrivUser.resources
 D:\Demo2\ATBM_QLDL\PH1_GUI\PH1_GUI\obj\Debug\PH1_GUI.CapQuyenUser.resources
+D:\Demo2\ATBM_QLDL\PH1_GUI\PH1_GUI\obj\Debug\PH1_GUI.ThuHoiQuyenUser.resources

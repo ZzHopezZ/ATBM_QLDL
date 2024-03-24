@@ -103,6 +103,7 @@
             this.Controls.Add(this.comboBox1);
             this.Name = "CapQuyenUser";
             this.Text = "CapQuyenUser";
+            this.Load += new System.EventHandler(this.CapQuyenUser_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

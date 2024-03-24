@@ -136,6 +136,7 @@
             this.Controls.Add(this.label1);
             this.Name = "UpdateUserRole";
             this.Text = "UpdateUserRole";
+      //      this.Load += new System.EventHandler(this.UpdateUserRole_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

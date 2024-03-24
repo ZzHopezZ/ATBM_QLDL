@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|d:\\demo2\\atbm_qldl\\ph1_gui\\ph1_gui\\thuhoiquyenuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|solutionrelative:ph1_gui\\thuhoiquyenuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|d:\\demo2\\atbm_qldl\\ph1_gui\\ph1_gui\\capquyenuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|solutionrelative:ph1_gui\\capquyenuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|d:\\demo2\\atbm_qldl\\ph1_gui\\ph1_gui\\capquyenuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\ph1_gui\\capquyenuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|solutionrelative:ph1_gui\\capquyenuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\ph1_gui\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|solutionrelative:ph1_gui\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\ph1_gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|solutionrelative:ph1_gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\ph1_gui\\privuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|solutionrelative:ph1_gui\\privuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\ph1_gui\\privuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|solutionrelative:ph1_gui\\privuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\ph1_gui\\insertnvform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|solutionrelative:ph1_gui\\insertnvform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\ph1_gui\\updateuserrole.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|solutionrelative:ph1_gui\\updateuserrole.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\ph1_gui\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|solutionrelative:ph1_gui\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|d:\\demo2\\atbm_qldl\\ph1_gui\\ph1_gui\\updateuserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|solutionrelative:ph1_gui\\updateuserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\ph1_gui\\assignrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|solutionrelative:ph1_gui\\assignrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|d:\\demo2\\atbm_qldl\\ph1_gui\\ph1_gui\\thuhoiquyenuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|solutionrelative:ph1_gui\\thuhoiquyenuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A1B08D6-F405-498F-85F4-0F01F83A33A9}|PH1_GUI\\PH1_GUI.csproj|D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\ph1_gui\\assignrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,20 +53,6 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\Role.cs",
-              "RelativeDocumentMoniker": "PH1_GUI\\Role.cs",
-              "ToolTip": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\Role.cs",
-              "RelativeToolTip": "PH1_GUI\\Role.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAIAwwBkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T11:27:43.963Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
@@ -92,20 +62,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateUserRole.cs [Design]",
+              "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\UpdateUserRole.cs",
+              "RelativeDocumentMoniker": "PH1_GUI\\UpdateUserRole.cs",
+              "ToolTip": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\UpdateUserRole.cs [Design]",
+              "RelativeToolTip": "PH1_GUI\\UpdateUserRole.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T12:47:39.023Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ThuHoiQuyenUser.cs",
+              "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\ThuHoiQuyenUser.cs",
+              "RelativeDocumentMoniker": "PH1_GUI\\ThuHoiQuyenUser.cs",
+              "ToolTip": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\ThuHoiQuyenUser.cs",
+              "RelativeToolTip": "PH1_GUI\\ThuHoiQuyenUser.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAQwEwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T12:03:09.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CapQuyenUser.cs",
               "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\CapQuyenUser.cs",
               "RelativeDocumentMoniker": "PH1_GUI\\CapQuyenUser.cs",
               "ToolTip": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\CapQuyenUser.cs",
               "RelativeToolTip": "PH1_GUI\\CapQuyenUser.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAswH0AAAANAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAIA+wFcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T11:06:41.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CapQuyenUser.cs [Design]",
               "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\CapQuyenUser.cs",
               "RelativeDocumentMoniker": "PH1_GUI\\CapQuyenUser.cs",
@@ -118,69 +113,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\Program.cs",
-              "RelativeDocumentMoniker": "PH1_GUI\\Program.cs",
-              "ToolTip": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\Program.cs",
-              "RelativeToolTip": "PH1_GUI\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T15:42:13.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PrivUser.cs [Design]",
-              "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\PrivUser.cs",
-              "RelativeDocumentMoniker": "PH1_GUI\\PrivUser.cs",
-              "ToolTip": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\PrivUser.cs [Design]",
-              "RelativeToolTip": "PH1_GUI\\PrivUser.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T15:35:58.044Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PrivUser.cs",
-              "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\PrivUser.cs",
-              "RelativeDocumentMoniker": "PH1_GUI\\PrivUser.cs",
-              "ToolTip": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\PrivUser.cs",
-              "RelativeToolTip": "PH1_GUI\\PrivUser.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAuwDEAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T15:36:34.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InsertNVForm.cs",
-              "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\InsertNVForm.cs",
-              "RelativeDocumentMoniker": "PH1_GUI\\InsertNVForm.cs",
-              "ToolTip": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\InsertNVForm.cs",
-              "RelativeToolTip": "PH1_GUI\\InsertNVForm.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAhwGkAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T11:16:48.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "UpdateUserRole.Designer.cs",
               "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\UpdateUserRole.Designer.cs",
               "RelativeDocumentMoniker": "PH1_GUI\\UpdateUserRole.Designer.cs",
               "ToolTip": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\UpdateUserRole.Designer.cs",
               "RelativeToolTip": "PH1_GUI\\UpdateUserRole.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
-              "WhenOpened": "2024-03-23T15:00:53.363Z"
+              "ViewState": "AQIAAH0AAAAAAAAAAAAlwIoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T15:00:53.363Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
+              "Title": "ThuHoiQuyenUser.cs [Design]",
+              "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\ThuHoiQuyenUser.cs",
+              "RelativeDocumentMoniker": "PH1_GUI\\ThuHoiQuyenUser.cs",
+              "ToolTip": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\ThuHoiQuyenUser.cs [Design]",
+              "RelativeToolTip": "PH1_GUI\\ThuHoiQuyenUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T12:02:52.048Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AssignRole.cs",
               "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\AssignRole.cs",
               "RelativeDocumentMoniker": "PH1_GUI\\AssignRole.cs",
@@ -188,33 +145,12 @@
               "RelativeToolTip": "PH1_GUI\\AssignRole.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAYwBYAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T13:16:55.321Z"
+              "WhenOpened": "2024-03-23T13:16:55.321Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AssignRole.cs [Design]",
-              "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\AssignRole.cs",
-              "RelativeDocumentMoniker": "PH1_GUI\\AssignRole.cs",
-              "ToolTip": "C:\\Users\\hienb\\source\\repos\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\AssignRole.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T13:06:43.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Role.cs [Design]",
-              "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\Role.cs",
-              "RelativeDocumentMoniker": "PH1_GUI\\Role.cs",
-              "ToolTip": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\Role.cs [Design]",
-              "RelativeToolTip": "PH1_GUI\\Role.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T14:25:15.981Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\LoginForm.cs",
               "RelativeDocumentMoniker": "PH1_GUI\\LoginForm.cs",
@@ -227,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\Form1.cs",
               "RelativeDocumentMoniker": "PH1_GUI\\Form1.cs",
@@ -239,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Demo2\\ATBM_QLDL\\PH1_GUI\\PH1_GUI\\Form1.cs",
               "RelativeDocumentMoniker": "PH1_GUI\\Form1.cs",

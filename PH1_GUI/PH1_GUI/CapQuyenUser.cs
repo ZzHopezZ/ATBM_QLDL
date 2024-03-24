@@ -83,6 +83,11 @@ namespace PH1_GUI
             }
         }
 
+        private void CapQuyenUser_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click_1(object sender, EventArgs e)
         {
             List<string> values = new List<string>();
