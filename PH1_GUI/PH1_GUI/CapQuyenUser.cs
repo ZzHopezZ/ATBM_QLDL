@@ -12,14 +12,15 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace PH1_GUI
 {
-    public partial class CapQuyen : Form
+    public partial class CapQuyenUser : Form
     {
         private string connectionString = "User Id=SYS;Password=11032003;DATA SOURCE=localhost:1521/xe;DBA PRIVILEGE=SYSDBA;TNS_ADMIN=C:\\Users\\trana\\Oracle\\network\\admin;PERSIST SECURITY INFO=True;";
         string username;
         private List<string> tableName = new List<string>();
         private List<string> collumnName = new List<string>();
         private string grant, table, user, objectCol;
-        public CapQuyen(string username)
+        int countRow = 0;
+        public CapQuyenUser(string username)
         {
             InitializeComponent();
             this.username = username;
@@ -28,7 +29,7 @@ namespace PH1_GUI
             comboBox2.DataSource = tableName;
             comboBox2.SelectedIndex = 0;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            user = "John";
+            user = "JOHN";
 
         }
 
@@ -40,24 +41,16 @@ namespace PH1_GUI
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             grant = comboBox1.SelectedItem.ToString();
-            if (grant == "INSERT" || grant =="DELETE")
+            
+            if (grant == "INSERT" || grant == "DELETE")
             {
                 dataGridView1.Columns.Clear();
             }
             comboBox2.SelectedIndex = 0;
-            
+
         }
 
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-                table = comboBox2.SelectedItem.ToString();
-                if (grant != "INSERT" && grant != "DELETE" && grant != null)
-                {
-                    fetchCollumnTable();
-                }
-              
-        }
+ 
 
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -70,7 +63,27 @@ namespace PH1_GUI
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void CapQuyen_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            table = comboBox2.SelectedItem.ToString();
+            if (grant != "INSERT" && grant != "DELETE" && grant != null)
+            {
+            
+                fetchCollumnTable();
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
             List<string> values = new List<string>();
             //Xử lí chuỗi
@@ -97,21 +110,28 @@ namespace PH1_GUI
                 }
             }
             string strsql = "";
+            string grantoption = "NO";
             if (values != null)
             {
-                //gramt select on table_name to user with grant option;
-
-                strsql = "GRANT " + grant + "(" + objectCol + ") on " + table + " to " + user;
-                if (checkBox1.Checked)
+                //grant select on table_name to user with grant option;
+                if (grant != "SELECT" )
                 {
-                    strsql = strsql + " with grant option";
+                    strsql = "GRANT " + grant + "(" + objectCol + ") on " + table + " to " + user;
+                    
                 }
-
-
+                else if (grant =="SELECT" && dataGridView1.SelectedRows.Count == countRow)
+                {
+                    strsql = "GRANT " + grant + " on " + table + " to " + user;
+                }
             }
             else
                 strsql = "GRANT " + grant + " on " + table + " to " + user;
+            if (checkBox1.Checked)
+            {
+                strsql = strsql + " with grant option";
+            }
             MessageBox.Show(strsql);
+            if (checkBox1.Checked) { grantoption = "TRUE"; }
             using (OracleConnection connection = new OracleConnection(connectionString))
             {
                 try
@@ -120,12 +140,25 @@ namespace PH1_GUI
                     using (OracleCommand command = connection.CreateCommand())
                     {
                         command.CommandType = CommandType.StoredProcedure;
-                        command.CommandText = "PH1_EXECUTESQL";
+                        if (grant != "SELECT" && dataGridView1.SelectedRows.Count<countRow )
+                        {
+                            command.CommandText = "PH1_EXECUTESQL";
+                            // Thêm các parameter cho stored procedure                  
+                            command.Parameters.Add("STRSQL", OracleDbType.Varchar2).Value = strsql;
+                        }
+                        else
+                        {
+                            command.CommandText = "PH1_TAOVIEWSELECT";
+                            command.Parameters.Add("COL_OBJECT", OracleDbType.Varchar2).Value = objectCol;
+                            command.Parameters.Add("TABLE_NAME", OracleDbType.Varchar2).Value = table;
+                            command.Parameters.Add("USERNAME", OracleDbType.Varchar2).Value = user;
+                            command.Parameters.Add("GRANTOPTION", OracleDbType.Varchar2).Value = grantoption;
 
-                        // Thêm các parameter cho stored procedure
-                        command.Parameters.Add("STRSQL", OracleDbType.Varchar2).Value = strsql;
 
 
+                            command.ExecuteNonQuery();
+
+                        }
                     }
                 }
                 catch (Exception ex)
@@ -134,10 +167,8 @@ namespace PH1_GUI
                 }
             }
 
-
-
-
         }
+
 
         private void fetchTableName()
         {
@@ -162,8 +193,8 @@ namespace PH1_GUI
                                 // Đọc từng dòng và thêm vào list.
                                 // Giả sử MyDataType là class của bạn có các property tương ứng với các cột trong DB
 
-                                String Column1 = reader["object_name"].ToString();                  
-                                
+                                String Column1 = reader["object_name"].ToString();
+
                                 resultList.Add(Column1);
 
 
@@ -171,7 +202,7 @@ namespace PH1_GUI
                             tableName.AddRange(resultList);
                             // Hiển thị dữ liệu lên DataGridView
                         }
-                        
+
                     }
                 }
                 catch (Exception ex)
@@ -196,29 +227,15 @@ namespace PH1_GUI
                         command.Parameters.Add("p_table_name", OracleDbType.NVarchar2).Value = table;
                         command.Parameters.Add("cur_OUT", OracleDbType.RefCursor, ParameterDirection.Output);
 
-                        //using (OracleDataReader reader = command.ExecuteReader())
-                        //{
-                        //    List<String> resultList = new List<String>();
-                        //    while (reader.Read())
-                        //    {
-                        //        // Đọc từng dòng và thêm vào list.
-                        //        // Giả sử MyDataType là class của bạn có các property tương ứng với các cột trong DB
-
-                        //        String Column1 = reader["column_name"].ToString();                                
-                        //        resultList.Add(Column1);
-
-
-
-                        //    }
-                        //    collumnName.AddRange(resultList);
-                        //    // Hiển thị dữ liệu lên DataGridView
-                        //}
                         OracleDataAdapter adapter = new OracleDataAdapter(command);
                         DataTable dataTable = new DataTable();
                         adapter.Fill(dataTable);
-
+                        MessageBox.Show("co chay");
                         // Hiển thị dữ liệu lên DataGridView
                         dataGridView1.DataSource = dataTable;
+                       
+                        countRow = dataGridView1.Rows.Count-1;
+
 
                     }
                 }

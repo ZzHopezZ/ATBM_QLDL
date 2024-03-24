@@ -98,11 +98,11 @@
     <Compile Include="AssignRole.Designer.cs">
       <DependentUpon>AssignRole.cs</DependentUpon>
     </Compile>
-    <Compile Include="CapQuyen.cs">
+    <Compile Include="CapQuyenUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CapQuyen.Designer.cs">
-      <DependentUpon>CapQuyen.cs</DependentUpon>
+    <Compile Include="CapQuyenUser.Designer.cs">
+      <DependentUpon>CapQuyenUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -145,8 +145,8 @@
     <EmbeddedResource Include="AssignRole.resx">
       <DependentUpon>AssignRole.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CapQuyen.resx">
-      <DependentUpon>CapQuyen.cs</DependentUpon>
+    <EmbeddedResource Include="CapQuyenUser.resx">
+      <DependentUpon>CapQuyenUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
